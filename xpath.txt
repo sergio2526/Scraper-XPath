@@ -1,0 +1,4 @@
+Links = $x('//h2[@class="headline"]/a/@href')
+Title = $x('//a[@class="empresasSect"]/text()')
+resumen = $x('//div[@class="lead"]/p/text()')
+body = $x('//div[@class="html-content"]/p[not(@class)]/text()')
